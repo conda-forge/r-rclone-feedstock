@@ -5,11 +5,9 @@ Home: https://github.com/dbailleul/RClone
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rclone-feedstock/blob/master/LICENSE.txt)
 
 Summary: R version of 'GenClone' (a computer program to analyse genotypic data, test for clonality and describe spatial clonal organization, Arnaud-Haond & Belkhir 2007, <http://wwz.ifremer.fr/clonix/content/download/68205/903914/file/GenClone2.0.setup.zip>), this package allows clone handling as 'GenClone' does, plus the possibility to work with several populations, MultiLocus Lineages (MLL) custom definition and use, and p-value calculation for psex statistic (probability of originating from distinct sexual events) and psex_Fis statistic (taking account of Hardy-Weinberg equilibrium departure) as 'MLGsim'/'MLGsim2' (a program for detecting clones using a simulation approach, Stenberg et al. 2003).
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-rclone` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-rclone` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
