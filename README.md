@@ -1,11 +1,11 @@
-About r-rclone
-==============
+About r-rclone-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rclone-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dbailleul/RClone
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rclone-feedstock/blob/main/LICENSE.txt)
 
 Summary: R version of 'GenClone' (a computer program to analyse genotypic data, test for clonality and describe spatial clonal organization, Arnaud-Haond & Belkhir 2007, <http://wwz.ifremer.fr/clonix/content/download/68205/903914/file/GenClone2.0.setup.zip>), this package allows clone handling as 'GenClone' does, plus the possibility to work with several populations, MultiLocus Lineages (MLL) custom definition and use, and p-value calculation for psex statistic (probability of originating from distinct sexual events) and psex_Fis statistic (taking account of Hardy-Weinberg equilibrium departure) as 'MLGsim'/'MLGsim2' (a program for detecting clones using a simulation approach, Stenberg et al. 2003).
 
